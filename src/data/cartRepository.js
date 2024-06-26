@@ -7,7 +7,6 @@ let API_HOST = process.env.REACT_APP_Heroku_API_HOST;
  * @returns
  */
 async function getCartDetails(cart_id) {
-  // console.log(cart_id)
   const response = await axios.get(API_HOST + `/api/cart/${cart_id}`);
   return response.data;
 }

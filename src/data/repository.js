@@ -1,7 +1,6 @@
 import axios from "axios";
 // --- Constants ----------------------------------------------------------------------------------
 const API_HOST = process.env.REACT_APP_Heroku_API_HOST;
-//const API_HOST = "https://guarded-crag-74798-053ff05cdeb6.herokuapp.com";
 const USER_KEY = "user";
 const CART_KEY = "cart";
 const SERVER_MSG = "Unable to connect to the server. Please try again later.";

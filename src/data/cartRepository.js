@@ -1,8 +1,6 @@
 import axios from "axios";
 let API_HOST = process.env.REACT_APP_Heroku_API_HOST;
 
-//const API_HOST = "https://guarded-crag-74798-053ff05cdeb6.herokuapp.com";
-
 /**
  * get cart detail by cart_id
  * @param {int} cart_id

@@ -35,8 +35,6 @@ async function verifyUser(email, password) {
       return [user, result.success, result.message];
     } else return [null, result.success, result.message];
   } catch (error) {
-    // console.error("Network error:", error);
-
     return [null, false, SERVER_MSG];
   }
 }

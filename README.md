@@ -2,11 +2,11 @@
 Welcome to the Organic Food Store web application repository! This application is designed to provide a seamless shopping experience for users looking to purchase organic products. It includes features such as user authentication, product browsing, cart management, and order processing.
 
 # Features
-**User Authentication**: Sign up, login, and manage profiles.
-**Product Browsing**: View and search for products by category.
-**Cart Management**: Add products to cart, update quantities, and proceed to checkout.
-**Order Processing**: Confirm orders and receive payment confirmations.
-**Reviews**: Users can add, edit, and delete product reviews.
+- **User Authentication**: Sign up, login, and manage profiles.
+- **Product Browsing**: View and search for products by category.
+- **Cart Management**: Add products to cart, update quantities, and proceed to checkout.
+- **Order Processing**: Confirm orders and receive payment confirmations.
+- **Reviews**: Users can add, edit, and delete product reviews.
 
 # Technologies Used
 **Frontend**: React.js, React Router, Bootstrap

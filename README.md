@@ -9,14 +9,14 @@ Welcome to the Organic Food Store web application repository! This application i
 - **Reviews**: Users can add, edit, and delete product reviews.
 
 # Technologies Used
-**Frontend**: React.js, React Router, Bootstrap
-**Backend**: Node.js, Express.js, Sequelize (for database interactions)
-**Database**: MySQL
-**Authentication**: JWT (JSON Web Tokens)
-**Hosting**: AWS S3 (frontend), Heroku (backend), JawsDB (database)
-**CDN**: Amazon CloudFront
-**APIs**: External API for meal planning
-**Other**: Various utility functions for data processing and validation
+- **Frontend**: React.js, React Router, Bootstrap
+- **Backend**: Node.js, Express.js, Sequelize (for database interactions)
+- **Database**: MySQL
+- **Authentication**: JWT (JSON Web Tokens)
+- **Hosting**: AWS S3 (frontend), Heroku (backend), JawsDB (database)
+- **CDN**: Amazon CloudFront
+- **APIs**: External API for meal planning
+- **Other**: Various utility functions for data processing and validation
 
 # Installation
 - npm install

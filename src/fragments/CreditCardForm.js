@@ -30,7 +30,6 @@ function CreditCardForm() {
    */
   const onSubmit = async (data) => {
     const isValidCardNumber = validateLuhnAlgorithm(data.cardNumber);
-    console.log("sss");
     if (!isValidCardNumber) {
       setError("cardNumber", {
         message: "Invalid credit card number",
@@ -39,7 +38,6 @@ function CreditCardForm() {
     }
 
     var response = await cartSubmit();
-    console.log(response);
     if (!response.success) {
       triggerAlert(response.message, response.success);
     } else navigate("/PaymentConfirm");
@@ -67,7 +65,6 @@ function CreditCardForm() {
       sum += digit;
       isEven = !isEven;
     }
-    // detectCardType(cardNumber);
     return sum % 10 === 0;
   }
 
@@ -115,7 +112,6 @@ function CreditCardForm() {
             </label>
             <input
               type="text"
-              // value="4263982640269299"
               maxLength={16}
               minLength={16}
               className="form-control"
@@ -139,7 +135,6 @@ function CreditCardForm() {
             </label>
             <input
               type="text"
-              // value="12/25"
               className="form-control"
               maxLength={5}
               minLength={5}
@@ -167,7 +162,6 @@ function CreditCardForm() {
             </label>
             <input
               type="text"
-              // value="123"
               maxLength={3}
               minLength={3}
               className="form-control"

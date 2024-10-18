@@ -30,4 +30,8 @@ Welcome to the Organic Food Store web application repository! This application i
 - Sign up for a new account or login if you already have one.
 - Browse products by category and add them to your cart.
 - Manage your cart and proceed to checkout to confirm your order.
-- Leave reviews for products you've purchased. 
+- Leave reviews for products you've purchased.
+
+# Credit
+This website is a collaboration between Thanapon Tidhnavy and Nichakorn Biamukda
+

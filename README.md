@@ -33,5 +33,5 @@ Welcome to the Organic Food Store web application repository! This application i
 - Leave reviews for products you've purchased.
 
 # Credit
-This website is a collaboration between Thanapon Tidhnavy and Nichakorn Biamukda
+This website is a collaboration between Nichakorn Biamukda and Thanapon Tidhnavy. 
 
